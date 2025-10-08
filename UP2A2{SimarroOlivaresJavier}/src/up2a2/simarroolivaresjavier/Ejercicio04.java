@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package up2a2.simarroolivaresjavier;
-
 import java.util.Scanner; // Llamada a la clase Scanner.
 
 /**

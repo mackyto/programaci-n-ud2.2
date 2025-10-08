@@ -5,7 +5,6 @@
 
 package up2a2.simarroolivaresjavier;
 import java.util.Scanner; // Llamada a la clase Scanner.
-import java.text.DecimalFormat; // Llamada a la clase DecimalFormat.
 
 /**
  * 
@@ -19,13 +18,18 @@ public class Ejercicio02 {
 
     public static void main(String[] args){
 
-        System.out.println("Indica una temperatura en grados celsius para calcular su valor en fahrenheit"); // 
-        System.err.println("Por favor introduce solo números con comas para decimales o dará error"); // Aviso de limitación de introducción de tipos.
         Scanner keyld = new Scanner(System.in); // Se instansia el objeto keyboar-load (keyld) de entrada por teclado hasta salto de linea.
-        DecimalFormat df = new DecimalFormat("#.00"); // Se formatea el número de decimales con redondeo en la instancia 'df'.
-        Double celsius =  keyld.nextDouble();
-        System.out.println(celsius+"º Celsius son "+df.format((celsius*9/5)+32)+"º Fahrenheit");
+
+        System.err.println("Por favor introduce solo números con comas para decimales o dará error"); // Aviso de limitación de introducción de tipos.
+        System.out.print("\n\n\n");
         
+        System.out.print("Indica una temperatura en grados celsius para calcular su valor en kelvin y fahrenheit "); // 
+        Double celsius =  keyld.nextDouble();
+
+        System.out.printf("\n\n%.3fº Celsius" , celsius);
+        System.out.printf(" son %.3fº kelvin" , celsius+273.15);
+        System.out.printf(" y son %.3fº fahrenheit\n\n\n", (celsius*9/5)+32);
+
     }
   
 }
