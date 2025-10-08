@@ -7,35 +7,61 @@ import java.util.Scanner;
 
 /**
  * 
- * 5. Una empresa quiere validar si dos precios introducidos por el usuario son
- *    exactamente iguales. Si son iguales, el programa mostrará true, si no, false.
- *    Usa operadores lógicos y de comparación.
+ * 4. La dirección de un parque quiere conocer el área de una fuente circular.
+ *    El programa pedirá el radio al usuario y calculará el área usando Math.PI
+ *    y Math.pow.
+ * 
+ * 
+ * La Clase fundamental Math es una clase que ofrece una serie
+ * de operaciones y constantes mátematica de java para facilitar
+ * la realización de calculos complejos en la programación, aparte de 
+ * las primitivas del lenguaje: suma, resta, multiplicación y división
+ * así como los operadores lógicos.
+ * Math.sqrt es la función para la realización de raizes cuadradas.
+ * 
+ * 
+ * Clase Math metodos más comunes
+ * 
+ * 
+ * abs(x): Devuelve el valor absoluto de x.
+ * 
+ * ceil(x): Devuelve el entero más pequeño que es mayor o igual a x.
+ * 
+ * floor(x): Devuelve el entero más grande que es menor o igual a x.
+ * 
+ * max(x, y): Devuelve el mayor de x e y.
+ * 
+ * min(x, y): Devuelve el menor de x e y.
+ * 
+ * pow(x, y): Devuelve x elevado a la potencia de y.
+ * 
+ * random(): Devuelve un número aleatorio entre 0 y 1.
+ * 
+ * round(x): Devuelve el entero más cercano a x.
+ * 
+ * sqrt(x): Devuelve la raíz cuadrada de x.
+ * 
+ * 
+ * Las constantes mas utilizadas:
+ * 
+ * 
+ * E: el número de Euler (2.718281828459045)
+ * 
+ * PI: el número pi (3.141592653589793)
+ * 
  * 
  * 
  * @author Javier Simarro Olivares
- */
+ */ 
+
 public class Ejercicio04 {
+   
+    public static void main(String[] args){
     
-    public static void main(String [] args){
     
-        Scanner keyld =new Scanner(System.in);
     
-        System.err.println("Por favor introduce solo números con comas para decimales o dará error");
-        System.out.println("Se va a proceder a comparar dos precios con hasta dos decimales he indicar si son iguales");
     
-        System.out.printf("\n\n");    
-        System.out.print("Introduzca el primer precio ");
-        double precio1 = keyld.nextDouble();
     
-        System.out.printf("\n");
-        System.out.print("Introduzca el segundo precio ");
-        double precio2 = keyld.nextDouble();
-    
-        System.out.printf("\n\nLos precios de %.2f", precio1); 
-        System.out.printf(" y %.2f", precio2);
-        System.out.println(" introducidos, son " + (precio1==precio2 ? "iguales":"diferentes")+"."); 
-        System.out.printf("\n\n");
-                
     }
-            
+    
 }

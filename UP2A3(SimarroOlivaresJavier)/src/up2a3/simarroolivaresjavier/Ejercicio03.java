@@ -12,6 +12,13 @@ import java.util.Scanner;
  *    El resultado debe mostrarse por pantalla, y el cálculo debe incluir un comentario explicando qué hace Math.sqrt.
  * 
  * 
+ * La Clase fundamental Math es una clase que ofrece una serie
+ * de operaciones y constantes mátematica de java para facilitar
+ * la realización de calculos complejos en la programación, aparte de 
+ * las primitivas del lenguaje: suma, resta, multiplicación y división
+ * así como los operadores lógicos.
+ * Math.sqrt es la función para la realización de raizes cuadradas.
+ * 
  * 
  * Clase Math metodos más comunes
  * 
@@ -54,13 +61,13 @@ public class Ejercicio03 {
         
 
         Scanner keyld=new Scanner(System.in);                                                 // 
-                                                                                              //   La Clase fundamental Math es una clase que ofrece una serie
-                                                                                              // de operaciones y constantes mátematica de java para facilitar
-        System.err.println("¡¡¡Aviso!!! introduce solo numeros positivos o dará error");      // la realización de calculos complejos en la programación, aparte de 
-        System.out.print("Calculo de raizes cuadradas, Introduce el numero ");                // las primitivas del lenguaje: suma, resta, multiplicación y división
-                                                                                              // así como los operadores lógicos.
+                                                                                              //   
+                                                                                              // 
+        System.err.println("¡¡¡Aviso!!! introduce solo numeros positivos o dará error");      // 
+        System.out.print("Calculo de raizes cuadradas, Introduce el numero ");                // 
+                                                                                              // 
         double numero=keyld.nextDouble();                                                     //  
-                                                                                              //   Math.sqrt es la función para la realización de raizes cuadradas.
+                                                                                              //   
         System.out.println("La raiz cuadrada de " + numero + " es " + Math.sqrt(numero));     // 
     
     }
