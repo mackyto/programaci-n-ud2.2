@@ -16,11 +16,16 @@ import java.util.Scanner;
 public class Ejercicio03 {
 
     public static void main(String[] args){
-    Scanner keyld=new Scanner(System.in);
-    System.err.println("¡¡¡Aviso!!! introduce solo numeros positivos o dará error");
-    System.out.print("Calculo de raizes cuadradas, Introduce el numero ");
-    double numero=keyld.nextDouble();
-    System.out.println("La raiz cuadrada de "+numero+" es "+Math.sqrt(numero));
+        
+
+        Scanner keyld=new Scanner(System.in);                                                 
+
+        System.err.println("¡¡¡Aviso!!! introduce solo numeros positivos o dará error");
+        System.out.print("Calculo de raizes cuadradas, Introduce el numero ");
+
+        double numero=keyld.nextDouble();
+
+        System.out.println("La raiz cuadrada de " + numero + " es " + Math.sqrt(numero));
     
     }
 
