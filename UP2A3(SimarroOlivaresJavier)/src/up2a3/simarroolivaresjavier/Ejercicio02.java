@@ -19,12 +19,13 @@ import java.text.DecimalFormat; // importa la clase DecimalFormat
  * 
  * @author Javier Simarro Olivares
  */
+
 public class Ejercicio02 {
     
     public static void main(String[] args){
     
         Scanner keyld=new Scanner(System.in); // Define la instancia para la lectura del teclado keyld.
-        DecimalFormat df=new DecimalFormat("#.00"); // Define la instancia del formato con dos decimales df 
+        DecimalFormat df=new DecimalFormat("00.00"); // Define la instancia del formato con dos decimales df 
         System.err.println("Por favor introduce solo números como decimales o dará error"); // Aviso de introduccion de tipos
         System.out.println("Se va a poceder a calcular la magnitud del aplicativo 2, para ello debe introducir cuatro concentraciones"); // Imprime instrucciones de Uso
         System.out.print("Introduce la primera concentracion 0."); // Solicita la primera concentración.
@@ -36,7 +37,9 @@ public class Ejercicio02 {
         System.out.print("Introduce la cuarta concentracion 0."); // Solicita la cuarta concentración.
         double cuartaConcentracion =Double.parseDouble("0."+keyld.nextLine()); // Carga el valor introducido por teclado en cuartaConcentracion.        
         System.out.println("La magnitud resultante es "+df.format((primeraConcentracion+segundaConcentracion)*(terceraConcentracion-cuartaConcentracion)/2));
-              
+        System.out.println(primeraConcentracion+"   "+segundaConcentracion+"   "+(primeraConcentracion+segundaConcentracion));
+        System.out.println(terceraConcentracion+"   "+cuartaConcentracion+"   "+(terceraConcentracion-cuartaConcentracion));
+        
     }
     
 }

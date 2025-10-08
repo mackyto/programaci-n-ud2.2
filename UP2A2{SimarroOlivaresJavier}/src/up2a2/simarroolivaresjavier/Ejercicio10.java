@@ -18,12 +18,12 @@ public class Ejercicio10 {
     
     public static void main(String[] args){
     
-        Scanner keyld =new Scanner(System.in);
-        DecimalFormat df= new DecimalFormat("00");
+        Scanner keyld = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("00");
         System.err.println("Por favor introduce solo números o dará error");
         System.out.print("Por favor introduce los decimalesl 0,");
         String texNumero ="0."+keyld.nextLine();
-        Double numero =Double.parseDouble(texNumero);
+        Double numero = Double.parseDouble(texNumero);
         System.out.println("El tanto porcien del numero decimal sin redondeo es "+(int)(numero*100)+"%");
         System.out.println("El tanto porcien del numero decimal redondeado es "+df.format(numero*100)+"%");
     
