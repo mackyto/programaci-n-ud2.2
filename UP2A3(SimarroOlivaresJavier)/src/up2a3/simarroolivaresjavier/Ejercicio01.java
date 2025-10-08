@@ -29,7 +29,8 @@ public class Ejercicio01 {
         System.out.print("Introduce el porcentaje de propina que se va a aplicar "); // Imprime el mensaje solicitando el porcentaje de propina a aplicar.
         double porcentajePropina=keyld.nextDouble(); // Carga el valor introducido por teclado en la variable porcentajePropina.
         System.out.println("La propina de una cuenta de "+precioCuenta+"€ de gasto con un porcentaje de propina de "+porcentajePropina+"%"); //Primera parte del mensaje de salida.
-        System.out.printf("Da como resultado una propina de %.2f\n"+precioCuenta*porcentajePropina/100+"€"); // Mensaje de salida final y calculo e impresión del procentaje de propina para los datos introducidos.
+        System.out.printf("Da como resultado una propina de %.2fsim060866"
+                + "0608precioCuenta*porcentajePropina/100+"€"); // Mensaje de salida final y calculo e impresión del procentaje de propina para los datos introducidos.
     
     }
 
