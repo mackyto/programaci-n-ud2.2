@@ -2,8 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+
 package up2a3.simarroolivaresjavier;
 import java.util.Scanner;
+
+// import java.util.Formatter;
 
 /**
  * 
@@ -58,10 +61,17 @@ public class Ejercicio04 {
    
     public static void main(String[] args){
     
-    
-    
-    
-    
+        Scanner keyld = new Scanner(System.in);                                                         // Define la instancia Scanner 
+        
+        System.err.println("Por favor introduce solo numeros con comas para decimales o dara error");  // Aviso de limitación de introducción de tipos.
+        System.out.printf("\nSe procedera a calcular el area del circulo de la fuente");
+        
+        System.out.printf("\n\nIntroduzcz el radio de la fuente en metros ");
+        double radio = keyld.nextDouble();
+        double areaCirculo = Math.PI*Math.pow(radio,2);
+        
+        System.out.printf("\nEl area del circulo es %.3fmts2.\n\n",areaCirculo);
+        
     }
     
 }
