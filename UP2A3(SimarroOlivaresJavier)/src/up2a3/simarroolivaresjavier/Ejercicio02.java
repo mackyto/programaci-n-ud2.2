@@ -24,7 +24,7 @@ public class Ejercicio02 {
 
     public static void main(String[] args) {
 
-        Scanner keyld = new Scanner(System.in);                                                                                         // Define la instancia para la lectura del teclado keyld.
+        Scanner keyld = new Scanner(System.in);                                                                                             // Define la instancia para la lectura del teclado keyld.
 
         System.err.println("Por favor introduce solo números como decimales o dará error");                                                 // Aviso de introduccion de tipos
         System.out.println("Se va a poceder a calcular la magnitud del aplicativo 2, para ello debe introducir cuatro concentraciones");    // Imprime instrucciones de Uso
