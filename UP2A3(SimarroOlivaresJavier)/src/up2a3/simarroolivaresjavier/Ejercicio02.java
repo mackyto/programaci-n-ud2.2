@@ -24,24 +24,24 @@ public class Ejercicio02 {
 
     public static void main(String[] args) {
 
-        Scanner keyld = new Scanner(System.in);                                                                                           // Define la instancia para la lectura del teclado keyld.
-     
-        System.err.println("Por favor introduce solo números como decimales o dará error");                                               // Aviso de introduccion de tipos
-        System.out.println("Se va a poceder a calcular la magnitud del aplicativo 2, para ello debe introducir cuatro concentraciones");  // Imprime instrucciones de Uso
+            Scanner keyld = new Scanner(System.in);                                                                                         // Define la instancia para la lectura del teclado keyld.
 
-        System.out.print("Introduce la primera concentracion ");                                                                          // Solicita la primera concentración.
-        double concentA = keyld.nextDouble();                                                                                       // Carga el valor introducido por teclado en primeraConcentracion.
+        System.err.println("Por favor introduce solo números como decimales o dará error");                                                 // Aviso de introduccion de tipos
+        System.out.println("Se va a poceder a calcular la magnitud del aplicativo 2, para ello debe introducir cuatro concentraciones");    // Imprime instrucciones de Uso
 
-        System.out.print("Introduce la segunda concentracion ");                                                                          // Solicita la primera concentración.
-        concentA += keyld.nextDouble();                                                                                      // Carga el valor introducido por teclado de la segundaConcentracion en concentracionA.
+        System.out.print("Introduce la primera concentracion ");                                                                            // Solicita la primera concentración.
+        double concentA = keyld.nextDouble();                                                                                               // Carga el valor introducido por teclado en primeraConcentracion.
 
-        System.out.print("Introduce la tercera concentracion ");                                                                          // Solicita la tercera concentración.
-        double concentB = keyld.nextDouble();                                                                                        // Carga el valor introducido por teclado en terceraConcentracion.
+        System.out.print("Introduce la segunda concentracion ");                                                                            // Solicita la primera concentración.
+        concentA += keyld.nextDouble();                                                                                                     // Carga el valor introducido por teclado de la segundaConcentracion en concentracionA.
+            
+        System.out.print("Introduce la tercera concentracion ");                                                                            // Solicita la tercera concentración.
+        double concentB = keyld.nextDouble();                                                                                               // Carga el valor introducido por teclado en terceraConcentracion.
 
-        System.out.print("Introduce la cuarta concentracion ");                                                                           // Solicita la cuarta concentración.
-        concentB -= keyld.nextDouble();                                                                                       // Carga el valor introducido por teclado en cuartaConcentracion.        
+        System.out.print("Introduce la cuarta concentracion ");                                                                             // Solicita la cuarta concentración.
+        concentB -= keyld.nextDouble();                                                                                                     // Carga el valor introducido por teclado en cuartaConcentracion.        
 
-        System.out.printf("La magnitud resultante es %.4f %n %n", concentA * concentB / 2);                                             // Imprime el Resultado
+        System.out.printf("La magnitud resultante es %.4f %n %n", concentA * concentB / 2);                                                 // Imprime el Resultado
 
     }
 
