@@ -31,9 +31,9 @@ public class Ejercicio07 {
         
         System.out.printf("\n————————————————————————————————————————————————————————————————————————————\n");          // #############################
                                                                                                                         // # 
-        System.out.printf("Se va a proceder a calcular la huella de carbono mensual de un ciudadano\ntomamdo de base:");// # Descripción de la operación
-        System.out.printf("\n\n\ta. - Los kilómetros recorridos en coche sumando 0.2 kg CO2 por km");                   // # del programa.
-        System.out.printf("\n\n\tb. - El consumo eléctrico en kWh siendo 0.4 kg CO2 por kWh");                          // # 
+        System.out.printf("Se va a proceder a calcular la huella de carbono mensual de un ciudadano\ntomamdo de base:");// # 
+        System.out.printf("\n\n\ta. - Los kilómetros recorridos en coche sumando 0.2 kg CO2 por km");                   // # Descripción de la operación
+        System.out.printf("\n\n\tb. - El consumo eléctrico en kWh siendo 0.4 kg CO2 por kWh");                          // # del programa.
         System.out.printf("\n\n\tc. - El consumo de gas natural en m³ con un valor de 2.1 kg CO2 por m³");              // # 
                                                                                                                         // # 
         System.out.printf("\n\n————————————————————————————————————————————————————————————————————————————\n");        // #############################
