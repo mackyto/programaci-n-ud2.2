@@ -21,20 +21,20 @@ public class Ejercicio05 {
         
     public static void main(String [] args){
     
-        Scanner keyld =new Scanner(System.in);                                                                                          // 
+        Scanner keyld =new Scanner(System.in);                                                                                          // Define la instancia de lectura del teclado keyld.
                                                                                                                                         // 
-        System.err.println("Por favor introduce solo números con comas para maximo dos decimales o dará error");                        // 
-        System.out.printf("\nSe va a proceder a comparar dos precios con hasta dos decimales he indicar si son iguales\n\n");           // 
+        System.err.println("Por favor introduce solo números con comas para maximo dos decimales o dará error");                        // Imprime la restricción de tipos.
+        System.out.printf("\nSe va a proceder a comparar dos precios con hasta dos decimales he indicar si son iguales\n\n");           // Imprime brebe descripcion del programa.
                                                                                                                                         // 
-        System.out.print("Introduzca el primer precio ");                                                                               // 
-        double precio1 = keyld.nextDouble();                                                                                            // 
+        System.out.print("Introduzca el primer precio ");                                                                               // Solicita el primer precio.
+        double precio1 = keyld.nextDouble();                                                                                            // Captura la cantidad introducida por teclado y la guarda en precio1.
                                                                                                                                         // 
-        System.out.printf("\n\nIntroduzca el segundo precio ");                                                                         // 
-        double precio2 = keyld.nextDouble();                                                                                            // 
+        System.out.printf("\n\nIntroduzca el segundo precio ");                                                                         // Solicita el segundo precio.
+        double precio2 = keyld.nextDouble();                                                                                            // Captura la cantidad introducida por teclado y la guarda en precio2.
                                                                                                                                         // 
-        String mensaje = precio1 == precio2 ? "iguales" : "diferentes";                                                                 // Se comparan los precios y se envia el menjaje true false en español y adaptado a los requisitos 
+        String mensaje = precio1 == precio2 ? "iguales(True)" : "diferentes(False)";                                                    // Se comparan los precios (precio1 y precio2) y se envia el menjaje true false, en español y adaptado a los requisitos. 
                                                                                                                                         // 
-        System.out.printf("\n\nLos precios introducidos de %.2f€ y %.2f€ son %s\n\n", precio1, precio2, mensaje);                       // Imprime el resultado
+        System.out.printf("\n\nLos precios introducidos de %.2f€ y %.2f€ son %s\n\n", precio1, precio2, mensaje);                       // Imprime el resultado.
                 
     }
         
