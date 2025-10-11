@@ -61,16 +61,18 @@ public class Ejercicio04 {
    
     public static void main(String[] args){
     
-        Scanner keyld = new Scanner(System.in);                                                         // Define la instancia Scanner 
+        Scanner keyld = new Scanner(System.in);                                                         // Define la instancia Scanner.
         
-        System.err.println("Por favor introduce solo numeros con comas para decimales o dara error");  // Aviso de limitación de introducción de tipos.
-        System.out.printf("\nSe procedera a calcular el area del circulo de la fuente");
+        System.err.println("Por favor introduce solo numeros con comas para decimales o dara error");   // Aviso de limitación de introducción de tipos.
+        System.out.printf("\nSe procedera a calcular el area del circulo de la fuente");                // Imprime la operación del programa.
         
-        System.out.printf("\n\nIntroduzcz el radio de la fuente en metros ");
-        double radio = keyld.nextDouble();
-        double areaCirculo = Math.PI*Math.pow(radio,2);
+        System.out.printf("\n\nIntroduzcz el radio de la fuente en metros ");                           // Imprime mensaje de petición del radio.
+        double radio = keyld.nextDouble();                                                              // Captura con la instancia keyld el radio introducido por teclado y lo carga en la variable radio.
         
-        System.out.printf("\nEl area del circulo es %.3fmts2.\n\n",areaCirculo);
+        double areaCirculo = Math.PI*Math.pow(radio,2);                                                 // Define la variable AreaaCirculo y resuelve el perimetro con el valor de π obtenido con la funcion Math.PI
+                                                                                                        // y elevando el radio al cuadrado con la función Math.pow ambas de la clase Math.
+        
+        System.out.printf("\nEl area del circulo es %.3fmts2.\n\n",areaCirculo);                        // Imprime el resultado
         
     }
     

@@ -36,6 +36,8 @@ public class Ejercicio05 {
     
         System.out.printf("\n\nLos precios de %.2f", precio1); 
         System.out.printf(" y %.2f", precio2);
+
+        System.out.println(" introducidos, son " + (precio1==precio2 ? "iguales":"diferentes")+"."); 
         System.out.println(" introducidos, son " + (precio1==precio2 ? "iguales":"diferentes")+"."); 
         System.out.printf("\n\n");
                 

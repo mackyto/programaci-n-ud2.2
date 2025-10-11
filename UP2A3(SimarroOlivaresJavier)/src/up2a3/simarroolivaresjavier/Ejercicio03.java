@@ -60,17 +60,15 @@ public class Ejercicio03 {
     public static void main(String[] args){
         
 
-        Scanner keyld=new Scanner(System.in);                                                 // 
-                                                                                              //   
-                                                                                              // 
-        System.err.println("¡¡¡Aviso!!! introduce solo numeros positivos o dará error");      // 
-        System.out.print("Calculo de raizes cuadradas, Introduce el numero ");                // 
-                                                                                              // 
-        double numero=keyld.nextDouble();                                                     //  
-                                                                                              //   
-        System.out.println("La raiz cuadrada de " + numero + " es " + Math.sqrt(numero));     // 
+        Scanner keyld = new Scanner(System.in);                                                 // Define la instancia Sanner de captura de teclado, con el nombre keyld.
+                                                                                                // 
+        System.err.println("¡¡¡Aviso!!! introduce solo numeros o dará error");                  // Imprime aviso de limitación de tipos.
+                                                                                                //
+        System.out.print("Calculo de raizes cuadradas, Introduce el numero ");                  // Solicita el numero a operar.                                                                                                // 
+        double numero = keyld.nextDouble();                                                     // Captura el número introducido por teclado y lo carga en numero.
+                                                                                                //   
+        System.out.println("La raiz cuadrada de " + numero + " es " + Math.sqrt(numero));       // Imprime el resultado de la raiz cuadrada de numero con la clase Math de java 
     
     }
-
     
 }
